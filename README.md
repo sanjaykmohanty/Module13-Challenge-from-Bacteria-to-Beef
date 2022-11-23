@@ -1,14 +1,15 @@
 # Module13-Challenge-from-Bacteria-to-Beef
 ## Overview
-Volunteers participated in a study by twirling a sterile swab in their belly buttons to collect their microbes. The purpose of this project is to create a dynamic webpage where the volentiers should be able to identify the top 10 bacterial species in their belly buttons. 
+Volunteers participated in a study by twirling a sterile swab in their belly buttons to collect their microbes. The purpose of this project is to create a dynamic webpage where the volunteers should be able to identify the top 10 bacterial species in their belly buttons.
 
 This project consists of four technical analysis deliverables:
+
 - Horizontal Bar Chart
 - Bubble Chart
 - Gauge Chart
 - Customized Dashboard
 
-Technologies used for the deliverablesare HTML, CSS, JavaScript, Plotly, and D3.js
+Technologies used for the deliverables are HTML, CSS, JavaScript, Plotly, and D3.js
 
 ## Results
 
@@ -20,7 +21,7 @@ The horizontal bar chart displays the sample_values as the values, the otu_ids a
 ![image](https://user-images.githubusercontent.com/31812730/203476918-c3821e60-380c-438b-b698-a6a73472fd40.png)
 
 ### Bubble Chart
-A bubble chart was created to display the following when an individual’s ID is selected from the dropdown menu webpage:
+A bubble chart was created to display the following information when an individual’s ID is selected from the dropdown menu webpage:
 - otu_ids as the x-axis values
 - sample_values as the y-axis values
 - sample_values as the marker size
@@ -50,6 +51,10 @@ Following customization was done:
 - Custom font was used with contrast for the colors
 - Navigation bar added that allows user to select only the bar, or the bubble, or the gauge chart on the page.
 
-Customized dashboard is shown in the image below.
+Customized dashboard has following elements is shown in the image below:
+- Dropdown to examine data from each individual
+- Bar chart featuring the top ten microbial species (OTUs or operational taxonomic units)
+- Bubble chart featuring all microbial species
+- Gauge of the frequency of belly button washes weekly for each individual
 
 ![image](https://user-images.githubusercontent.com/31812730/203481978-e63c2454-8a1b-4900-bd35-9b674c325766.png)
